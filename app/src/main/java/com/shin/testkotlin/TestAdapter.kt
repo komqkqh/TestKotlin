@@ -22,7 +22,7 @@ class TestAdapter : RecyclerView.Adapter<TestAdapter.TestHolderView>() {
         items[position].let {item ->
             with(holder){
                 tvTitle.text = item.title
-                tvContent.text = item.title
+                tvContent.text = item.content
             }
         }
     }
